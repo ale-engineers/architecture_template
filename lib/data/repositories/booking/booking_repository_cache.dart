@@ -2,13 +2,7 @@ import 'package:architecture_template/data/services/api/model/booking/booking_ap
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-part 'booking_repository_cached_data.g.dart';
-
-@riverpod
-BookingApiModel? bookingApiModelCachedDataById(Ref ref, int id) {
-  final cachedData = ref.watch(bookingRepositoryCacheProvider);
-  return cachedData[id];
-}
+part 'booking_repository_cache.g.dart';
 
 @Riverpod(keepAlive: true)
 class BookingRepositoryCache extends _$BookingRepositoryCache {
@@ -21,4 +15,10 @@ class BookingRepositoryCache extends _$BookingRepositoryCache {
       for (final item in list) item.id: item,
     };
   }
+}
+
+@riverpod
+BookingApiModel? bookingApiModelCachedDataById(Ref ref, int id) {
+  final cachedData = ref.watch(bookingRepositoryCacheProvider);
+  return cachedData[id];
 }

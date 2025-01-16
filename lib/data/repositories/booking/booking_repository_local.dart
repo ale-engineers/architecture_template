@@ -1,5 +1,5 @@
 import 'package:architecture_template/data/repositories/booking/booking_repository.dart';
-import 'package:architecture_template/data/repositories/booking/booking_repository_cached_data.dart';
+import 'package:architecture_template/data/repositories/booking/booking_repository_cache.dart';
 import 'package:architecture_template/data/services/api/db_manager.dart';
 import 'package:architecture_template/data/services/api/model/booking/booking_api_model.dart';
 import 'package:architecture_template/domain/booking/booking.dart';

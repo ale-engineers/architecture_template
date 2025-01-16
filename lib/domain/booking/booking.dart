@@ -1,4 +1,4 @@
-import 'package:architecture_template/data/repositories/booking/booking_repository_cached_data.dart';
+import 'package:architecture_template/data/repositories/booking/booking_repository_cache.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
