@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'booking_repository_cached_data.dart';
+part of 'booking_repository_cache.dart';
 
 // **************************************************************************
 // RiverpodGenerator
