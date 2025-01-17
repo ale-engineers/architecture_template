@@ -2,7 +2,7 @@ import 'package:architecture_template/data/repositories/booking/booking_reposito
 import 'package:architecture_template/data/repositories/booking/booking_repository_cache.dart';
 import 'package:architecture_template/data/services/api/db_manager.dart';
 import 'package:architecture_template/data/services/api/model/booking/booking_api_model.dart';
-import 'package:architecture_template/domain/booking/booking.dart';
+import 'package:architecture_template/domain/models/booking/booking.dart';
 import 'package:architecture_template/utils/result.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';

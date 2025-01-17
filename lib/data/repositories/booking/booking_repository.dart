@@ -1,4 +1,4 @@
-import 'package:architecture_template/domain/booking/booking.dart';
+import 'package:architecture_template/domain/models/booking/booking.dart';
 import 'package:architecture_template/utils/result.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';

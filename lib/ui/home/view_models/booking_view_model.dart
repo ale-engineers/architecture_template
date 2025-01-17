@@ -1,5 +1,5 @@
 import 'package:architecture_template/data/repositories/booking/booking_repository.dart';
-import 'package:architecture_template/domain/booking/booking.dart';
+import 'package:architecture_template/domain/models/booking/booking.dart';
 import 'package:architecture_template/utils/result.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

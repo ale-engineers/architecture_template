@@ -1,4 +1,4 @@
-import 'package:architecture_template/domain/booking/booking.dart';
+import 'package:architecture_template/domain/models/booking/booking.dart';
 import 'package:flutter/material.dart';
 
 class BookingCard extends StatelessWidget {
