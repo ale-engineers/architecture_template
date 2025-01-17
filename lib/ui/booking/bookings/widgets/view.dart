@@ -1,7 +1,7 @@
-import 'package:architecture_template/ui/home/view_models/booking_view_model.dart';
-import 'package:architecture_template/ui/home/widgets/booking/components/booking_card.dart';
-import 'package:architecture_template/ui/home/widgets/booking/error.dart';
-import 'package:architecture_template/ui/home/widgets/booking/loading.dart';
+import 'package:architecture_template/ui/booking/bookings/view_models/booking_view_model.dart';
+import 'package:architecture_template/ui/booking/bookings/widgets/components/booking_card.dart';
+import 'package:architecture_template/ui/booking/bookings/widgets/error.dart';
+import 'package:architecture_template/ui/booking/bookings/widgets/loading.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

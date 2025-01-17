@@ -1,4 +1,4 @@
-import 'package:architecture_template/ui/home/view_models/booking_view_model.dart';
+import 'package:architecture_template/ui/booking/bookings/view_models/booking_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
