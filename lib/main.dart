@@ -1,5 +1,5 @@
 import 'package:architecture_template/config/overrides.dart';
-import 'package:architecture_template/ui/home/widgets/booking/view.dart';
+import 'package:architecture_template/ui/booking/bookings/widgets/view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
